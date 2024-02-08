@@ -1,5 +1,5 @@
 import {Routes, Route} from 'react-router-dom'
-import {Navbar, Home} from './index'
+import {Navbar, Home, Services} from './index'
 
 const App = () => {
 
@@ -9,7 +9,10 @@ const App = () => {
                 <Navbar/>
             </div>
             <div>
-                {/* <Home/> */}
+                <Routes>
+                <Route exact path='/' element={<Home/>}/>
+                <Route path="/services" element={<Services />} />
+                </Routes>
             </div>
             <div>
                 <footer> 
