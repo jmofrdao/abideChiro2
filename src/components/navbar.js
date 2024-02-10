@@ -6,8 +6,12 @@ const Navbar = () => {
         <div>
             <header>
                 <div>
+                    <p>Abide Chiropractic</p>
+                </div>
+                <div>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/services'>Services</NavLink>
+                <NavLink to='appointment'>Schedule Appointment</NavLink>
                 </div>
                 <div>
                 <a href="mailto:abide.chiropractic22@gmail.com">

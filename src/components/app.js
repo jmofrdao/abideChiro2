@@ -1,5 +1,5 @@
 import {Routes, Route} from 'react-router-dom'
-import {Navbar, Home, Services} from './index'
+import {Navbar, Home, Services, Appointment} from './index'
 
 const App = () => {
 
@@ -12,11 +12,12 @@ const App = () => {
                 <Routes>
                 <Route exact path='/' element={<Home/>}/>
                 <Route path="/services" element={<Services />} />
+                <Route path="/appointment" element={<Appointment/>}/>
                 </Routes>
             </div>
             <div>
                 <footer> 
-                    <img src={require('./pics/footer.jpeg')}/>
+                    <img src={require('./pics/footer2.PNG')}/>
                 </footer>
             </div>
         </div>

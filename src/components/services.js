@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div>
             <h1>
-                Services!
+                SERVICES WE OFFER
             </h1>
             <div>
                 <h2>Chriropractic Care</h2>
