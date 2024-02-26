@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    max-width: 1640px;
+    width: 1000px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px 25px 25px;
+    object-fit: contain;
+}
+
+/* #footerPic {
+    display: flex; 
+	max-width: 100%; or whatever width you want 
+    height: auto;
+	margin-right: auto; 
+	margin-left: auto; 
+    padding: 10px 10px 25px 25px;
+ margin: 20px 30px 0 0;
+    object-fit: fill;
+} */

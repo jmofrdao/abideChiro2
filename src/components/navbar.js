@@ -7,12 +7,12 @@ const Navbar = () => {
         <div id="headerWhole">
             <header>
                 <div>
-                    <p>Abide Chiropractic</p>
+                    <p id='abideTitle'>Abide Chiropractic</p>
                 </div>
-                <div className="linksNav">
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/services'>Services</NavLink>
-                <NavLink to='appointment'>Schedule Appointment</NavLink>
+                <div>
+                <NavLink to='/' className='linksNav'>Home</NavLink>
+                <NavLink to='/services' className='linksNav'>Services</NavLink>
+                <NavLink to='appointment' className='linksNav'>Schedule Appointment</NavLink>
                 </div>
                 <div>
                 {/* <a href="mailto:abide.chiropractic22@gmail.com">
