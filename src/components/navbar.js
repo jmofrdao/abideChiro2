@@ -7,7 +7,7 @@ const Navbar = () => {
         <div id="headerWhole">
             <header>
                 <div>
-                    <p id='abideTitle'>Abide Chiropractic</p>
+                    <p id='abideTitle'>ABIDE CHIROPRACTIC</p>
                 </div>
                 <div>
                 <NavLink to='/' className='linksNav'>Home</NavLink>

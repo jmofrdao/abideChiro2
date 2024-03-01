@@ -27,6 +27,9 @@ const Home = () => {
             </div>
             <div>
                 <h3 id='specialities'>SPECIALTIES</h3>
+                <div className="container2">
+                    <img src={require('./pics/need.jpg')} className='container__image2'/>
+                
                 <ul className="lists">
                     <li > Pediatric Care</li>
                     <li > Back + Neck Pain</li>
@@ -38,8 +41,8 @@ const Home = () => {
                     <li > Wellness Care</li>
                     <li > Muscle tightness + Soreness</li>
                 </ul>
+                </div>
             </div>
-            <hr></hr>
             <div>
                 <h3 id='seeUs'>COME SEE US</h3>
                 <p id='address'>4301 N. Sara Rd. Suite 119 OKC, OK 73099</p>

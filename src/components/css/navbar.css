@@ -1,5 +1,5 @@
 .linksNav {
-    color: #fdfd96;
+    color: black;
 }
 
 #headerWhole {
@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-family: cursive;
+  font-family: Optima, sans-serif;
 }
 
 .linksNav {
@@ -40,7 +40,7 @@
   } 
   .linksNav:visited { 
     text-decoration: none; 
-    color: #fdfd96;
+    color: black;
   } 
   .linksNav:hover { 
     text-decoration: underline; 
