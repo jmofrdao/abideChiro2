@@ -52,13 +52,25 @@
     text-decoration: none; 
   }
 
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border: white 3px solid;
+    padding-right: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+    
+  }
   #mail {
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
 
   #ig {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }

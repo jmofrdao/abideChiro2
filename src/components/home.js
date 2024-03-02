@@ -47,8 +47,21 @@ const Home = () => {
                 <h3 id='seeUs'>COME SEE US</h3>
                 <p id='address'>4301 N. Sara Rd. Suite 119 OKC, OK 73099</p>
             </div>
+
             <div className="boxMap">
             <iframe id='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.6415537619587!2d-97.71168512423232!3d35.513140539189415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b206127f55b665%3A0x47826726ccba144a!2s4301%20N%20Sara%20Rd%20%23119%2C%20Yukon%2C%20OK%2073099!5e0!3m2!1sen!2sus!4v1707281476278!5m2!1sen!2sus" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <h3 id='hours'>HOURS</h3>
+                <div className="container2">
+                    <img src={require('./pics/open.jpg')} className='container__image2'/>
+                    <p className="lists">MONDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M.<br />
+                    TUESDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M. <br />
+                    WEDNESDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M. <br />
+                    THURSDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M. <br />
+                    FRIDAY 9:30 A.M. - 1:00 P.M.</p>
+
+                </div>
             </div>
         </div>
     )

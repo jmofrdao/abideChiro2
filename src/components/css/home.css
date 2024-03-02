@@ -48,6 +48,7 @@ body {
 display: flex;
 justify-content: center;
 font-size: 30px;
+text-decoration: underline;
 }
 
 #map {
@@ -64,6 +65,7 @@ font-size: 30px;
     display: flex;
 justify-content: center;
 font-size: 30px;
+text-decoration: underline;
 }
 
 .container2 {
@@ -91,10 +93,27 @@ flex: 1 1 auto;
     display: flex;
     justify-content: center;
     font-size: 30px;
+    text-decoration: underline;
 }
 
 #address {
     display: flex;
     justify-content: center;
     font-size: 25px;
+}
+
+#hours {
+        display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.lists1 {
+    display: flex;
+justify-content: left;
+flex-direction: column;
+font-size: 25px;
+flex: 1 1 auto;
+position: absolute;
 }
