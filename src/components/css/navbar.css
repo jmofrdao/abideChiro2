@@ -14,6 +14,8 @@
     -webkit-font-smoothing: subpixel-antialiased;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 0px;
     height: 120px;
 }
 
@@ -29,9 +31,10 @@
   text-decoration: none;
   padding: 5px 5px 5px 5px;
   border: white 3px solid;
-  align-items: flex-end;
   padding-right: 10px;
   margin-right: 10px;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .linksNav:link { 
@@ -47,4 +50,15 @@
   } 
   .linksNav:active { 
     text-decoration: none; 
+  }
+
+  #mail {
+    display: flex;
+    width: 20px;
+    height: 20px;
+  }
+
+  #ig {
+    width: 20px;
+    height: 20px;
   }

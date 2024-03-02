@@ -13,13 +13,15 @@ const Navbar = () => {
                 <NavLink to='/' className='linksNav'>Home</NavLink>
                 <NavLink to='/services' className='linksNav'>Services</NavLink>
                 <NavLink to='appointment' className='linksNav'>Schedule Appointment</NavLink>
+                <a href="mailto:abide.chiropractic22@gmail.com" className="linksNav">
+                    <img src={require('./pics/mail-icon-envelope-sign-email-symbol-free-vector.jpg')} id='mail'/>
+                </a>
+                <a href="https://www.instagram.com/abide.chiropractic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <img src={require('./pics/instagram.jpg')} id='ig'/>
+                </a>
                 </div>
-                <div>
-                {/* <a href="mailto:abide.chiropractic22@gmail.com">
-                    <img src={require('./pics/mail-icon-envelope-sign-email-symbol-free-vector.jpg')}/>
-                </a> */}
                 
-                </div>
+            
             </header>
         </div>
     )

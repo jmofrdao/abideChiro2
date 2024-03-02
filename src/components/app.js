@@ -1,5 +1,5 @@
 import {Routes, Route} from 'react-router-dom'
-import {Navbar, Home, Services, Appointment} from './index'
+import {Navbar, Home, Services, Appointment, Footer} from './index'
 import "./css/app.css";
 
 const App = () => {
@@ -16,10 +16,8 @@ const App = () => {
                 <Route path="/appointment" element={<Appointment/>}/>
                 </Routes>
             </div>
-            <div className='footer'>
-                <footer id='footerPic'> 
-                    <img src={require('./pics/footer2.PNG')}/>
-                </footer>
+            <div>
+                <Footer/>
             </div>
         </div>
     )
