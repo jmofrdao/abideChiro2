@@ -1,9 +1,13 @@
+
+
 .services {
     color: #b2a69c;
     font-family: Optima, sans-serif;
 }
 
 #services2 {
+    display: flex;
+    justify-content: center;
     color: #b2a69c;
     font-family: Optima, sans-serif;
     text-decoration: underline;

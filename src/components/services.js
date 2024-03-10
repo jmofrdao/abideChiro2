@@ -7,6 +7,9 @@ const Services = () => {
             <h1 id="services2">
                 SERVICES WE OFFER
             </h1>
+            <div className="container">
+            <img src={require('./pics/adjust2.jpeg')} className="container__image2"/>
+            <div className="container__text">
             <div>
                 <h2 className="services">Chriropractic Care</h2>
                 <p>The goal of chiropractic care is to restore optimal function to the body, and allowing the Nervous System to function at maximal capacity. 
@@ -24,6 +27,8 @@ The Nervous System is responsible for Respiratory, Digestive, Integumentary, Cir
             <div>
                 <h2 className="services">X-ray Analysis</h2>
                 <p>Depending on your age, health history, and presentation digital films may be taken on your initial visit. The information we will be able to gather from the x-rays taken will help determine the most effective treatment plan, and will alert Dr. Jade of any serious spinal conditions. </p>
+            </div>
+            </div>
             </div>
         </div>
     )

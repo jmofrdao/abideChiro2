@@ -45,6 +45,8 @@ const Home = () => {
             </div>
             <div>
                 <h3 id='seeUs'>COME SEE US</h3>
+                <a href="https://mine.hourmine.com/c/pCalendar.aspx?pa=AE3EE52A-9B89-9C9D-224E-E541EAB12280"
+target="_blank" className='links'>Click to Schedule Now</a>
                 <p id='address'>4301 N. Sara Rd. Suite 119 OKC, OK 73099</p>
             </div>
 
@@ -54,12 +56,12 @@ const Home = () => {
             <div>
                 <h3 id='hours'>HOURS</h3>
                 <div className="container2">
-                    <img src={require('./pics/open.jpg')} className='container__image2'/>
-                    <p className="lists">MONDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M.<br />
-                    TUESDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M. <br />
-                    WEDNESDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M. <br />
-                    THURSDAY 9:30 A.M. - 1 P.M. , 3:00 P.M. - 6:00 P.M. <br />
-                    FRIDAY 9:30 A.M. - 1:00 P.M.</p>
+                    <img src={require('./pics/clock.png')} className='container__image2'/>
+                    <p className="lists1">MONDAY: 9:30 A.M. - 1 P.M., 3:00 P.M. - 6:00 P.M.<br />
+                    TUESDAY: 9:30 A.M. - 1 P.M., 3:00 P.M. - 6:00 P.M. <br />
+                    WEDNESDAY: 9:30 A.M. - 1 P.M., 3:00 P.M. - 6:00 P.M. <br />
+                    THURSDAY: 9:30 A.M. - 1 P.M., 3:00 P.M. - 6:00 P.M. <br />
+                    FRIDAY: 9:30 A.M. - 1:00 P.M.</p>
 
                 </div>
             </div>

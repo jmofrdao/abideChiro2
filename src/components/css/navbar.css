@@ -14,10 +14,32 @@
     -webkit-font-smoothing: subpixel-antialiased;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     padding-top: 0px;
-    height: 120px;
+    height: 135px;
+    max-width: 100%;
+    width: 85%;
 }
+
+/* @media screen and (max-width:800px){
+  .sqs-block-image .design-layout-collage {
+  display: block!important;  
+  >:first-child{width:100%!important;}
+    :first-child>* {
+
+      width: 100%!important;
+      left: 0!important;
+    }
+    .image-card-wrapper {
+      width:100%!important;
+    }
+    .image-card {
+      width: 100%!important;
+      margin-left: 0!important;
+      margin-right: 0!important;
+    }
+  }  
+} */
 
 #abideTitle {
   display: flex;
@@ -25,11 +47,13 @@
   align-items: center;
   height: 100%;
   font-family: Optima, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 .linksNav {
   text-decoration: none;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 10px;
   border: white 3px solid;
   padding-right: 10px;
   margin-right: 10px;
@@ -57,20 +81,23 @@
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
-    padding: 5px 5px 5px 5px;
-    border: white 3px solid;
-    padding-right: 10px;
-    margin-right: 10px;
+    padding: 15px 0px 10px 0px;
     flex-direction: row;
     
   }
   #mail {
     display: flex;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 
   #ig {
-    width: 25px;
-    height: 25px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: column;
   }
