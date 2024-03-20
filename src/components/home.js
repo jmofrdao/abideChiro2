@@ -11,7 +11,7 @@ const Home = () => {
             <div>
                 <h3 id='meetJade'>MEET DR. JADE MORRIS</h3>
            </div>
-            <div className="container">
+            <div className="container2">
                 <img src={require('./pics/jade.jpeg')} className="container__image"/>
             
             <div className="container__text">

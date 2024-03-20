@@ -2,10 +2,12 @@
     color: black;
 }
 
-#headerWhole {
+.topnav {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: fixed;
+    top: 0; */
     /* justify-content: space-between;
     align-items: center; */
     font-size: 20px;
@@ -17,9 +19,91 @@
     padding-bottom: 12px;
     padding-top: 0px;
     height: 135px;
-    max-width: 100%;
-    width: 85%;
+    max-width: 81%;
+    width: 81%;
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    height: 250px;
+  }
+
+}
+
+/* @media screen and (max-width: 600px) {
+  .topnav li.right, 
+  .topnav li {float: none;}
+} */
+
+/* @media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 7px;
+    height: 100px;
+  }
+  .topnav-right {
+    float: none;
+  }
+
+  #abideTitle {
+    font-size: 5px;
+  }
+} */
+
+/* @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} */
 
 /* @media screen and (max-width:800px){
   .sqs-block-image .design-layout-collage {

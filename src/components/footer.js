@@ -5,7 +5,7 @@ const Footer = () => {
     return (
           <div>
                 <footer className='footer'> 
-                    <img src={require('./pics/footer2.PNG')} id='footerPic'/>
+                    <img src={require('./pics/newFoot.jpeg')} id='footerPic'/>
                 </footer>
             </div>
     )

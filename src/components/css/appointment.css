@@ -1,3 +1,12 @@
+body { 
+  width: 100%; 
+  max-width: 100%; /* or whatever width you want */ 
+  margin-right: auto; 
+  margin-left: auto; 
+  padding: 10px 10px 25px 25px;
+  overflow-x: hidden;
+} 
+
 .box {
     display: flex;
     align-items: center;
@@ -7,7 +16,7 @@
 #goodPhoto {
     justify-content: center;
     width: 600px;
-    max-width: 1640px;
+    max-width: 90%;
     height: 600px;
     padding-top: 20px;
 }
