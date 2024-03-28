@@ -21,10 +21,15 @@
     height: 135px;
     max-width: 81%;
     width: 81%;
+    margin-right: 10px;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a, .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -39,6 +44,8 @@
     position: absolute;
     right: 0;
     top: 0;
+
+    
   }
   .topnav.responsive a {
     float: none;
@@ -56,10 +63,12 @@
 
 @media screen and (max-width: 600px) {
   .topnav {
-    height: 250px;
+    height: 225px;
+
   }
 
 }
+
 
 /* @media screen and (max-width: 600px) {
   .topnav li.right, 
