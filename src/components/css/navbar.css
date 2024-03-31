@@ -14,14 +14,14 @@
     font-style: sans-serif;
     background-color: #b2a69c;
     -webkit-font-smoothing: subpixel-antialiased;
-    padding-left: 50px;
-    padding-right: 50px;
+     padding-right: 30px; 
     padding-bottom: 12px;
     padding-top: 0px;
     height: 135px;
-    max-width: 81%;
-    width: 81%;
+    max-width: 95%;
+    width: 95%;
     margin-right: 10px;
+    /* overflow-x: hidden; */
 }
 
 .topnav .icon {

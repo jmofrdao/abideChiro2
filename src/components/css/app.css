@@ -1,18 +1,19 @@
-body { 
+/* body { 
     width: 98%; 
-    max-width: 98%; /* or whatever width you want */ 
+    max-width: 98%; 
     margin-right: auto; 
     margin-left: auto; 
     padding: 10px 10px 25px 25px;
     overflow-x: hidden;
-} 
+}  */
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 98%;
-    width: 98%;
+    max-width: 97%;
+    width: 97%;
+    overflow-x: hidden;
 }
 
 #footerPic {
@@ -21,14 +22,14 @@ body {
     align-items: center;
     justify-content: center;
     /* background-color: #fdfd96; */
-    width: 98%;
-    padding: 15px 15px 15px 10px;
- margin: 15px 15px 0px 2px;
+    width: 97%;
+    padding: 15px 0px 10px 0px;
+ margin: 15px 0px 0px 0px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .footer {
-        width: 600px;
+        display
     }
   
-  }
+  } */
